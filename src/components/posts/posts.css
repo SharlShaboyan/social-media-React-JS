@@ -1,0 +1,20 @@
+.posts {
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 20px;
+}
+
+.post {
+    border: 5px solid rgb(216, 149, 24);
+    background-color: rgb(48, 203, 241);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    cursor: pointer;
+}

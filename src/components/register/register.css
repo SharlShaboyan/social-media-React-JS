@@ -1,0 +1,10 @@
+input {
+    padding: 20px;
+    display: block;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.error {
+    color: red;
+}
